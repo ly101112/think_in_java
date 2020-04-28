@@ -1,15 +1,17 @@
-package class7;
-
 /**
  * 第七章练习2 继承、重写和调用父类方法
  */
+package class7;
+
 public class Thread extends Detergent {
     public void scrub() {
         append(" Thread.scrub()");
         super.scrub();
     }
 
-    public void sterilize() { append(" sterilize()");}
+    public void sterilize() {
+        append(" sterilize()");
+    }
 
     public static void main(String[] args) {
         Thread thread = new Thread();
@@ -24,13 +26,28 @@ public class Thread extends Detergent {
     }
 }
 
-class Cleanser{
+class Cleanser {
     private String s = "Cleanser";
-    public void append(String a) { s += a;}
-    public void dilute() { append(" dilute()");}
-    public void apply() { append(" apply()");}
-    public void scrub() { append(" scrub()");}
-    public String toString() { return s;}
+
+    public void append(String a) {
+        s += a;
+    }
+
+    public void dilute() {
+        append(" dilute()");
+    }
+
+    public void apply() {
+        append(" apply()");
+    }
+
+    public void scrub() {
+        append(" scrub()");
+    }
+
+    public String toString() {
+        return s;
+    }
 
     public static void main(String[] args) {
         Cleanser cleanser = new Cleanser();
@@ -41,7 +58,7 @@ class Cleanser{
     }
 }
 
-class Detergent extends Cleanser{
+class Detergent extends Cleanser {
 
     // 重写
     public void scrub() {
@@ -49,7 +66,9 @@ class Detergent extends Cleanser{
         super.scrub(); // 调用父类的scrub
     }
 
-    public void foam() { append(" foam()");}
+    public void foam() {
+        append(" foam()");
+    }
 
     public static void main(String[] args) {
         Detergent detergent = new Detergent();

@@ -1,10 +1,10 @@
+/**
+ * 第七章练习18 final和static final的区别
+ */
 package class7;
 
 import java.util.Random;
 
-/**
- * 第七章练习18 final和static final的区别
- */
 public class Test18 {
     static final Random random = new Random(99);
     final int x = random.nextInt(100);

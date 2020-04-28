@@ -1,14 +1,14 @@
-package class7;
-
 /**
  * 第七章练习15
  */
+package class7;
 
-class Test15A{
+class Test15A {
     protected void f() {
         System.out.println("protected");
     }
 }
+
 public class Test15 extends Test15A {
     protected void f() {
         System.out.println("Test15 protected");

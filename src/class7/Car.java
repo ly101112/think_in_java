@@ -1,8 +1,7 @@
-package class7;
-
 /**
  * 第七章练习14
  */
+package class7;
 
 class Engine {
     public void start() {}

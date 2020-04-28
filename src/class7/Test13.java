@@ -1,24 +1,24 @@
-package class7;
-
 /**
  * 第七章练习13 重载也会继承
  */
-class Test13A{
-    void p(int x){
+package class7;
+
+class Test13A {
+    void p(int x) {
         System.out.println("p(int x)");
     }
 
-    void p(float x){
+    void p(float x) {
         System.out.println("p(float x)");
     }
 
-    void p(char x){
+    void p(char x) {
         System.out.println("p(char x)");
     }
 }
 
 public class Test13 extends Test13A {
-    void p(String x){
+    void p(String x) {
         System.out.println("p(String x)");
     }
 

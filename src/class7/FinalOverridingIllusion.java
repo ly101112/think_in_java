@@ -1,8 +1,7 @@
-package class7;
-
 /**
  * 第七章练习20、21 @override的作用（声明重写方法） final方法不能重写
  */
+package class7;
 
 class WithFinals {
     final void f() {

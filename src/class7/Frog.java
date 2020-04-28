@@ -1,8 +1,7 @@
-package class7;
-
 /**
  * 第七章练习16 向上转型
  */
+package class7;
 
 class Amphibian {
     void f() {

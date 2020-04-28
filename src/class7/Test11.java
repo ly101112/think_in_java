@@ -1,26 +1,36 @@
-package class7;
-
 /**
  * 第七章练习11 代理
  */
+package class7;
+
 public class Test11 {
     Detergent11 detergent11 = new Detergent11();
 
     public void append(String a) {
         detergent11.append(a);
     }
-    public void dilute() { append(" dilute()");}
-    public void apply() { append(" apply()");}
+
+    public void dilute() {
+        append(" dilute()");
+    }
+
+    public void apply() {
+        append(" apply()");
+    }
+
     public void scrub() {
         append(" Test11.scrub()");
         detergent11.scrub();
     }
+
     public void foam() {
         append(" foam()");
         detergent11.foam();
     }
 
-    public void sterilize() { append(" sterilize()");}
+    public void sterilize() {
+        append(" sterilize()");
+    }
 
     public static void main(String[] args) {
         Thread thread = new Thread();
@@ -35,13 +45,28 @@ public class Test11 {
     }
 }
 
-class Cleanser11{
+class Cleanser11 {
     private String s = "Cleanser";
-    public void append(String a) { s += a;}
-    public void dilute() { append(" dilute()");}
-    public void apply() { append(" apply()");}
-    public void scrub() { append(" scrub()");}
-    public String toString() { return s;}
+
+    public void append(String a) {
+        s += a;
+    }
+
+    public void dilute() {
+        append(" dilute()");
+    }
+
+    public void apply() {
+        append(" apply()");
+    }
+
+    public void scrub() {
+        append(" scrub()");
+    }
+
+    public String toString() {
+        return s;
+    }
 
     public static void main(String[] args) {
         Cleanser cleanser = new Cleanser();
@@ -52,20 +77,30 @@ class Cleanser11{
     }
 }
 
-class Detergent11{
+class Detergent11 {
 
     Cleanser11 cleanser11 = new Cleanser11();
 
     public void append(String a) {
         cleanser11.append(a);
     }
-    public void dilute() { append(" dilute()");}
-    public void apply() { append(" apply()");}
+
+    public void dilute() {
+        append(" dilute()");
+    }
+
+    public void apply() {
+        append(" apply()");
+    }
+
     public void scrub() {
         append(" Detergent.scrub()");
         cleanser11.scrub();
     }
-    public void foam() { append(" foam()");}
+
+    public void foam() {
+        append(" foam()");
+    }
 
     public static void main(String[] args) {
         Detergent detergent = new Detergent();

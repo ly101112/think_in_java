@@ -1,8 +1,8 @@
-package class7;
-
 /**
  * 第七章练习19 空白final，有构造器赋值
  */
+package class7;
+
 public class Test19 {
     public final int i;
 

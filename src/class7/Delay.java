@@ -1,8 +1,8 @@
-package class7;
-
 /**
  * 第七章练习1 惰性初始化
  */
+package class7;
+
 public class Delay {
     private Simple simple;
 
@@ -22,4 +22,5 @@ public class Delay {
     }
 }
 
-class Simple{}
+class Simple {
+}

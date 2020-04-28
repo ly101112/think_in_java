@@ -1,10 +1,9 @@
-package class7;
-
 /**
  * 第七章练习22 无法继承的final类
  */
+package class7;
 
-final class Test22A{
+final class Test22A {
     private String a;
 }
 

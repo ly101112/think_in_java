@@ -1,8 +1,7 @@
-package class7;
-
 /**
  * 第七章练习23、24 类的继承与初始化顺序（类只加载一次，即使多次调用）
  */
+package class7;
 
 class Insect {
     private int i = 0;

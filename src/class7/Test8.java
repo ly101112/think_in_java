@@ -1,3 +1,6 @@
+/**
+ * 第七章练习8
+ */
 package class7;
 
 class Test8A{
