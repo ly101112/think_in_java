@@ -7,3 +7,4 @@
 ## class6 访问权限控制
 ## class7 复用类
 ## class8 多态
+## class9 接口
