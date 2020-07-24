@@ -1,11 +1,12 @@
 # Java编程思想学习、练习
-## class1 对象导论
-## class2 一切都是对象
-## class3 操作符
-## class4 控制执行流程
-## class5 初始化和清理
-## class6 访问权限控制
-## class7 复用类
-## class8 多态
-## class9 接口
-## class10 内部类
+## [class1 对象导论](./class1/readme.md)
+## [class2 一切都是对象](./class2/readme.md)
+## [class3 操作符](./class3/readme.md)
+## [class4 控制执行流程](./class4/readme.md)
+## [class5 初始化和清理](./class5/readme.md)
+## [class6 访问权限控制](./class6/readme.md)
+## [class7 复用类](./class7/readme.md)
+## [class8 多态](./class8/readme.md)
+## [class9 接口](./class9/readme.md)
+## [class10 内部类](./class10/readme.md)
+## [class11 持有对象](./class11/readme.md)
