@@ -38,11 +38,11 @@ public class JGrep {
 
         Matcher matcher = compile.matcher("");
 
-        for (String line : new TextFile(args[0])) {
-            matcher.reset(line);
-            while (matcher.find()) {
-                System.out.println(index++ + ": " + matcher.group() + ": " + matcher.start());
-            }
-        }
+//        for (String line : new TextFile(args[0])) {
+//            matcher.reset(line);
+//            while (matcher.find()) {
+//                System.out.println(index++ + ": " + matcher.group() + ": " + matcher.start());
+//            }
+//        }
     }
 }

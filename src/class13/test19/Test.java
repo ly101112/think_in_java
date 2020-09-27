@@ -16,11 +16,11 @@ public class Test {
         Pattern compile = Pattern.compile("(class \\w+)");
         Matcher matcher = compile.matcher("");
 
-        for (String line : new TextFile(args[0])) {
-            matcher.reset(line);
-            if (matcher.find()) {
-                System.out.println(matcher.group());
-            }
-        }
+//        for (String line : new TextFile(args[0])) {
+//            matcher.reset(line);
+//            if (matcher.find()) {
+//                System.out.println(matcher.group());
+//            }
+//        }
     }
 }
